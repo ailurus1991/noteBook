@@ -9,7 +9,7 @@ Which will generate a .gitconfig file in our home directory.
 
 Initialize the git configure file in current directory
 
-   git init
+    git init
 
 This will generate a hidden directory .git/ in current directory.
 
