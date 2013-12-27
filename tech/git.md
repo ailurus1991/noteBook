@@ -38,7 +38,7 @@ This way to add the changed files we've added previously default.
 
 ## Multiple lines comments
 
-    git commit -a -v \Press Enter
+    git commit -a -v //Press Enter
 
 Change the default comment editor
 
