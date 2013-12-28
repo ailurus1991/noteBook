@@ -102,3 +102,12 @@ Create a branch from previous version:
 
     git checkout faxxx -b tmp // faxxx is the version number
 
+# git pull
+
+If two or more people are dealing with one same file, the guy push lately will be rejected since the previous version on his local repository is different with the version on server. So he should use the git pull to synchronize the current version:
+
+    git pull
+
+Then we should find the HEAD position in the conflict file.
+
+
