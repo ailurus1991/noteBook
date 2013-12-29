@@ -40,3 +40,13 @@ Here the condition in *if* is actually a command, if the command is executed wel
 * notice the space 
 * check the return value of a command: 1. _ls_; 2. _echo $?_
 * use *exit 1* to exit the whole bash program
+
+# re-direct (>)
+For stand input/output/error, if we user *>* in our command, the error messages will be redirected in to another file, such as:
+
+    echo """
+        ERROR: missing operand
+        Usage: ./xxx.sh PATHNAME
+         """ >&2
+
+Here *>&2* is the error message redirection, which means that *even we do ./xxx.sh >error.txt*, the error message will still be printed on the screen.
