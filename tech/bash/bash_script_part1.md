@@ -50,3 +50,60 @@ For stand input/output/error, if we user *>* in our command, the error messages 
          """ >&2
 
 Here *>&2* is the error message redirection, which means that *even we do ./xxx.sh >error.txt*, the error message will still be printed on the screen.
+
+# for loop
+Here's just an example:
+
+    #!/usr/bin/env bash
+    for i in 1 2 a b
+    do
+        echo $i
+    done
+
+Use *``* to execute the command at first and give the return results to the for loop:
+
+    #!/usr/bin/env bash
+    for i in `ls`
+    do
+        echo $i
+    done
+
+# echo -n and setting default value
+Sometimes we need to ask for answer:
+
+    echo -n "Want to delete: $file? (Y/n): " // get the user's keyboard input
+    read AAA // read the keyboard input to variable AAA
+    if [ "${AAA:-y}" = "y" ];then // if no input we just set the AAA = y as the default value
+        echo delete $file
+        rm $file
+        echo ...done
+    else
+        echo pass
+    fi
+
+Hence the whole script is asking user delete the files in current directory or not:
+
+    #!/usr/bin/env bash
+
+    if [ $# != 1 ]
+    then
+        echo """
+    ERROR: missing operand
+    Usage: ./delete_or_not.sh PATHNAME
+             """ >&2
+        exit 1
+    fi
+
+    cd $1
+    for file in `ls`
+    do
+        echo -n "Want to delete: $file? (Y/n): "
+        read AAA
+        if [ "${AAA:-y}" = "y" ];then
+            echo delete $file
+            rm $file
+            echo ...done
+        else
+            echo pass
+        fi
+    done
