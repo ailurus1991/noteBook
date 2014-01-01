@@ -4,7 +4,7 @@
 * 0 --> standard input
 
 # Basic Usage
-
+## Right Redirection >
 ### Redirect to file
 
     ls >output.txt // standard output
@@ -34,6 +34,7 @@ Another way to combine two files is append one to another:
     cat file1 >>file2 // the content in file1 will be appended in the end of file2
 
 *NOTE:* once we use *>* command, the redirected file will be created from new. So we can use *>newFile.txt* to create a new file or clean the content of one file.
+*NOTE(TESTED):* In OS X 10.9, *>newFile* will acted as *read A*.
 
 ### Example
 
@@ -43,3 +44,16 @@ Another way to combine two files is append one to another:
     do
         ls $dir &>>output.txt
     done
+
+## Left Redirection <
+### Read
+For basic keyboard input, we can use:
+
+    read A
+    // type something using keyboard
+    echo $A
+to get get the keyboard's input and store the value into variable *A*.
+
+If we want to redirect a file to this variable:
+
+    read B <input.txt
