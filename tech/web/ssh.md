@@ -12,4 +12,16 @@ Then we should copy and paste the content of **id_rsa.pub** to the **authorized_
 
     cat id_rsa.pub > authorized_keys // just the meaning, cannot be executed
 
+# Common Usage
+Execute simple command without logging the server:
 
+    ssh xxx@xxx.com 'touch test.txt'
+
+Sure we can continue if we need **sudo**:
+
+    ssh -t xxx@xxx.com 'sudo touch test.txt'
+
+# Check
+We can check current ssh servers status:
+
+    service ssh status
