@@ -8,7 +8,7 @@ We can generate a pair of ssh keys:
 
     ssh-keygen
 
-Then we should copy and paste the content of _id_rsa.pub_ to the _authorized_keys_.
+Then we should copy and paste the content of **id_rsa.pub** to the **authorized_keys**.
 
     cat id_rsa.pub > authorized_keys // just the meaning, cannot be executed
 
