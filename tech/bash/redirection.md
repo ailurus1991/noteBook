@@ -3,6 +3,13 @@
 * 2 --> standard error output
 * 0 --> standard input
 
+**update 01/03/2013**:
+all these definitions are in <unistd.h>
+* 1 --> STDIN_FILENO
+* 2 --> STDOUT_FILENO
+* 0 --> STDERR_FILENO
+
+
 # Basic Usage
 ## Right Redirection >
 ### Redirect to file
