@@ -1,5 +1,4 @@
 # Multi-machine
-
 Create a hostfile:
 
     machine1:2
