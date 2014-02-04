@@ -16,3 +16,7 @@ First add right directory to file /etc/shells
 Then change the default shell environment:
 
     chsh -s /usr/local/bin/fish
+
+
+# System configuration files
+Located at ~/Library/Preferences
