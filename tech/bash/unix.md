@@ -22,4 +22,3 @@ The second command will be execute only if when the first one returned the wrong
 
     cd /tmp/a/b/c || mkdir -p /tmp/a/b/c  // Here if we can not find the goal direcotory, we will create that one.
 
-
