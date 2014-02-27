@@ -16,5 +16,8 @@ In reduce phase,
 Just like a regular remote request, dont worry about the contract, no matter is the TCP or UDP.
 
 #Compile
- 
+
+    apt-get intall automake autoconf
+    ant clean
+    apt-get install litbool
     ant -Document-core=true
