@@ -14,3 +14,7 @@ In reduce phase,
 
 #Hadoop RPC
 Just like a regular remote request, dont worry about the contract, no matter is the TCP or UDP.
+
+#Compile
+ 
+    ant -Document-core=true
