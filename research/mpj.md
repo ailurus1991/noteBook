@@ -16,7 +16,7 @@ Sample code:
             int me = MPI.COMM_WORLD.Rank();
             int size = MPI.COMM_WORLD.Size();
             System.out.println("Hi From <+me+>");
-            MPI.Finilize();
+            MPI.Finalize();
         }
     }
 
