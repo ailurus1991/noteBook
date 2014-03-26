@@ -22,3 +22,6 @@ Sample code:
 
 #Run
 First should compile: `javac -cp .:$MPJ_HOME/lib/mpj.jar HelloWorld.java`, then execute: `mpjrun.sh -np 2 HelloWorld`.
+
+#Notes
+Since the execute command is `mpjrun.sh -np 2 xxx`, so we can use `args[1]` to indicate the rankAll.
