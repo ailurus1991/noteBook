@@ -13,3 +13,5 @@
 **mosh replace the default ssh**
 
 	mosh jzhou@craysun.cs.iit.edu --server=/home/jzhou/mosh_install/bin/mosh-server -p 10001
+
+**make sure the internet**
