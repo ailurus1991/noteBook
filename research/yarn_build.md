@@ -19,3 +19,7 @@
 # Learn note
 
 	./hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/blockmanagement/BlockPlacementPolicyDefault.java = ReplicationTargetChooser.java
+
+# RUN
+
+	bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples.jar pi 20 10
