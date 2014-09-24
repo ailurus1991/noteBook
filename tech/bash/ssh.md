@@ -15,3 +15,13 @@ set in bash_profile
 
 	mosh xxx@host.name.edu --server=/home/jzhou/mosh_install/bin/mosh-server -p portNum
 
+
+#general way
+
+	1. ssh-keygen -t rsa
+	2. copy the pub to the server: ~/.ssh/authorized_keys
+
+#ssh hostname
+
+	Change the
+	HostName, Port, User in ~/.ssh/config
