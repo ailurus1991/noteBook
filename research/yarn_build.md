@@ -23,3 +23,6 @@
 # RUN
 
 	bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples.jar pi 20 10
+
+# reducer in Hadoop1.0
+	src/mapred/org/apache/hadoop/mapred/JobQueueTaskScheduler.java
