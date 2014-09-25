@@ -7,7 +7,7 @@ We can use *grep* in Vim command mode, which means we filter the string *log* (r
 # Basic
 Use *grep* in text file with regular expression:
 
-    grep ^log test.txt // if we don't set the test.txt, grep will execute in our next keyboard input
+    grep log test.txt // if we don't set the test.txt, grep will execute in our next keyboard input
 
     grep log log.txt // basic grep usage, print the string contains *log*
     grep -i log log.txt // print the string contains *log* and *Log* and others 
@@ -26,3 +26,8 @@ Here we can use *-v* parameter to filter the string we don't want to see:
 Print the process name with specific string:
 
     ps aux | grep cron | grep -v color | awk '{print $2}' 
+
+# find specific strings with line number in current directory
+	
+	grep -rwn . -e "Stings"
+
