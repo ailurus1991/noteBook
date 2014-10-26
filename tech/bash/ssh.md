@@ -25,3 +25,8 @@ set in bash_profile
 
 	Change the
 	HostName, Port, User in ~/.ssh/config
+
+		Host dev
+			    HostName dev.example.com
+			    Port 22000
+			    User fooey
