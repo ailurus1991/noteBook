@@ -1,4 +1,4 @@
-APPNAME: app name in app master init
+APNAME: app name in app master init
 GETAPPNAME: from context classt 
 MOMO: client rm service app name
 NONONO: if equals grep
@@ -9,4 +9,3 @@ MOMOMO: submissionContext.getApplicationName
 
 Current: ClientRMService.java
 SubmitApplicationResponse.java
-ff
