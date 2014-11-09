@@ -25,3 +25,11 @@ Sure we can continue if we need **sudo**:
 We can check current ssh servers status:
 
     service ssh status
+
+# Kill port
+
+	lsof -i:port
+
+	to print the pid of the port we want to check.
+
+
