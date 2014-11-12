@@ -9,3 +9,9 @@ MOMOMO: submissionContext.getApplicationName
 Current: ClientRMService.java
 SubmitApplicationResponse.java
 ApplicationClientProtocolPBServiceImpl.java
+
+
+
+./hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/java/org/apache/hadoop/yarn/api/impl/pb/service/ApplicationClientProtocolPBServiceImpl.java
+./hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/java/org/apache/hadoop/yarn/api/impl/pb/client/ApplicationClientProtocolPBClientImpl.java
+
