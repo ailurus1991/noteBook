@@ -1,2 +1,3 @@
 # This is the notebook
-include the technical and life
+include the technical and life.
+the time
