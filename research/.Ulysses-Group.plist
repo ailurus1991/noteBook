@@ -5,6 +5,7 @@
 	<key>childOrder</key>
 	<array>
 		<string>Machine Learning</string>
+		<string>Spark</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
