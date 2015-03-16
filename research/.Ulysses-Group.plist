@@ -6,6 +6,7 @@
 	<array>
 		<string>Machine Learning</string>
 		<string>Spark</string>
+		<string>Gensim</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
