@@ -11,6 +11,7 @@
 		<string>vim</string>
 		<string>web</string>
 		<string>linux</string>
+		<string>python</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
