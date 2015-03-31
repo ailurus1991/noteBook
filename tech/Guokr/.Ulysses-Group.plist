@@ -2,11 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>defaultPathExtensions</key>
-	<string>md</string>
-	<key>textFileType</key>
-	<string>Markdown</string>
-	<key>useInlineLinks</key>
+	<key>createMarkedFile</key>
 	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>workload.md</string>
+		</array>
+	</array>
 </dict>
 </plist>
