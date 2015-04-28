@@ -1,4 +1,3 @@
-
 #Efficiency
 Here is the example, some one CPU's L1 cache is 16KB, cache line size is 64B, and L2 cache is 256KB, cache line size is 4KB. So for the following snip of code, which one is better?
 
