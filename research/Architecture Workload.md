@@ -23,10 +23,4 @@ Database: **HBase**
 
 # Algorithm
 **Learning to rank**: an normal implementation is Ranklib(umass) __not distributed__
-** MLbase**: Distributed machine-learning system to implement different machine learning algorithm. Here maybe we can implement the basic **byes**, **GBRT** and **MART**. 
-
-
-
-
-
-
+**MLbase**: Distributed machine-learning system to implement different machine learning algorithm. Here maybe we can implement the basic **byes**, **GBRT** and **MART**. 
