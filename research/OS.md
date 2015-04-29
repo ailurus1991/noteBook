@@ -7,4 +7,4 @@ The physical address of memory banks may be mapped to different logical address 
 
 In **Virtual Memory**, there may actually not be any physical memory mapped to a logical address until an access is attempted. The access triggers special functions of the operating system which reprogram the MMU to map the address to some physical memory, perhaps writing the old contents of that memory to disk and reading back from the disk what the memory should contain at the new logical address. In this case, the logical address may be referred to as a **virtual address**.
 
-**Virtual address** is the result of **Virtual Memory**.
+**Virtual address** is the result of **Virtual Memory**
