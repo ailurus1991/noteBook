@@ -1,5 +1,6 @@
 # init
 
+
 Sometimes need to setup global info:
 
     git config --global user.name "ailurus1991"
